@@ -17,14 +17,14 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  produce = [
+  return produce = [
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"],
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
     ]
 end
 
 def sorted_matrix
-  produce = [
+  return produce = [
     ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"],
     ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
     ]
