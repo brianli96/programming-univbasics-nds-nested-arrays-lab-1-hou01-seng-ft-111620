@@ -24,18 +24,17 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"],
-    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
+  produce = [
+    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"],
+    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
     ]
 end
 
 def matrix_lookup(matrix, row, column)
-  # Given any matrix (array of arrays), a row index and a column index, 
-  # Return the matrix's content at that row and and column
+  return matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
-  # Given any matrix (array of arrays), a row index and a column index, 
-  # Update the matrix location at that row and column to have the value of new_value
-  # Return the updated matrix
+  matrix[row][column] = new_value
+  return matrix[row][column]
 end
