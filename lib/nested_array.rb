@@ -25,8 +25,8 @@ end
 
 def sorted_matrix
   return produce = [
-    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"],
     ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"]
+    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
     ]
 end
 
